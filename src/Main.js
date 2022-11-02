@@ -11,7 +11,7 @@ export default class App extends Component {
           path="/"
           render={() => (
             <div className="App">
-              <Weather city="lisbon" />
+              <Weather city="tokio" />
             </div>
           )}
         />
@@ -26,19 +26,19 @@ export default class App extends Component {
         />
         <Route
           exact={true}
-          path="/sydney"
+          path="/new york"
           render={() => (
             <div className="App">
-              <Weather city="Sydney" />
+              <Weather city="New York" />
             </div>
           )}
         />
         <Route
           exact={true}
-          path="/san-francisco"
+          path="/lviv"
           render={() => (
             <div className="App">
-              <Weather city="San Francisco" />
+              <Weather city="Lviv" />
             </div>
           )}
         />
