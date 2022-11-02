@@ -8,16 +8,16 @@ export default class Navigation extends Component {
       <header>
         <ul className="navigation-items">
           <li className="navigation-item">
-            <Link to="/">Lisbon</Link>
+            <Link to="/">Tokio</Link>
           </li>
           <li className="navigation-item">
             <Link to="/paris">Paris</Link>
           </li>
           <li className="navigation-item">
-            <Link to="/sydney">Sydney</Link>
+            <Link to="/sydney">New York</Link>
           </li>
           <li className="navigation-item">
-            <Link to="/san-francisco">San Francisco</Link>
+            <Link to="/san-francisco">Lviv</Link>
           </li>
         </ul>
       </header>
