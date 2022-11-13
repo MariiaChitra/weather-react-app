@@ -14,10 +14,10 @@ export default class Navigation extends Component {
             <Link to="/paris">Paris</Link>
           </li>
           <li className="navigation-item">
-            <Link to="/sydney">New York</Link>
+            <Link to="/new york">New York</Link>
           </li>
           <li className="navigation-item">
-            <Link to="/san-francisco">Lviv</Link>
+            <Link to="/lviv">Lviv</Link>
           </li>
         </ul>
       </header>
